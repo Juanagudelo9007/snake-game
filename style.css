@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #eee;
+}
+
+#main {
+  text-align: center;
+}
+
+#score {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#reset {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  background-color: transparent;
+  color: #444;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 0.4rem;
+  transition: all 0.5s ease;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#reset:active {
+  transform: scale(0.95);
+  background-color: gray;
+  color: white;
+}
+
+.gameOver {
+  display: flex;
+  font-size: 2.7rem;
+  font-weight: bolder;
+  justify-self: center;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 42%;
+  color: white;
+  background-color: transparent;
+}
+
+#canvas {
+  position: relative;
+  z-index: 1;
+}
